@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": "",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+      "browser": true,
+      "node": true,
+      "commonjs": true,
+      "es6": true
+    },
+  "rules": {
+    "no-console":"off",
+    "no-debugger":"off",
+    "camelcase":"off",
+    "comma-dangle":["error", "always-multiline"]
+  }
+}

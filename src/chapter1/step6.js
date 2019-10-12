@@ -26,5 +26,6 @@ function usd (aNumber) {
 }
 
 invoices.forEach(item => {
+  console.log("TCL: item", item)
   console.log(statement(item, plays))
 })

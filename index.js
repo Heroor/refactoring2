@@ -1,1 +1,1 @@
-console.log('love ben');
+import code from './src/chapter1/step6.js'

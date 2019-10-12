@@ -4,7 +4,7 @@ import invoices from './invoices'
 // 移除play临时变量
 // 移除thisAmount变脸--内联变量
 function playFor(aPerformance) {
-  return plays[aPerformance]
+  return plays[aPerformance.playID]
 }
 
 function amountFor(aPerformance) {

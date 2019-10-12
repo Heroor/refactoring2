@@ -19,7 +19,7 @@ function volumeCreditsFor(aPerformance) {
 }
 
 function playFor(aPerformance) {
-  return plays[aPerformance]
+  return plays[aPerformance.playID]
 }
 
 function amountFor(aPerformance) {
